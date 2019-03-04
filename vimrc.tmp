@@ -10,6 +10,7 @@ Bundle 'gmarik/vundle'
 " " My bundles here:
 Bundle 'davidhalter/jedi-vim'
 
-filetype plugin indent on     " required!
+filetype plugin indent on
 
-execute pathogen#infect()
+set encoding=utf-8
+set fileencodings=utf-8,euc-kr
